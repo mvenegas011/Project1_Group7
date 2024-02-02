@@ -1,15 +1,24 @@
 # Project1_Group7
 
 1. Datasets:
-   - URL
+   - URL1: https://www.kaggle.com/datasets/zillow/zecon [Zillow Economics Data]
   
-
 2. Problem to Solve
-   a) Q1
-   b) Q2
+      1. increase in house median sales price by TOP 5 markets
+      2. house count per market
+      3. top, middle, bottom tier
+      4. Distribution - # of sales in time per Housing types (Condo/Co-Op/Single Fam/Multi-Fam
+      5. LIsting Price per Sq Foot (# of bedrooms)
+      6. seasonality/monthly of sales 
+      7. increase in prices throughout time
+      8. PREDICTION of sales prices (components)
+
+      CORRELATIONS
+      - income 
+      - demographics 
 
 3. To DO
-    - decide the market level (city, metro, state, country)
+   - decide the market level (city, metro, state, country)
    - define the columns that we will use
    - clean up data
    - decide if we want merge other data? or use other data sets
