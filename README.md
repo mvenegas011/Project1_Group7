@@ -16,6 +16,7 @@
       CORRELATIONS
       - income 
       - demographics 
+      - crime
 
 3. To DO
    - decide the market level (city, metro, state, country)
