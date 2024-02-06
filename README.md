@@ -17,6 +17,7 @@
       - income 
       - demographics 
       - crime
+      - age
 
 3. To DO
    - decide the market level (city, metro, state, country)
