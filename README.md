@@ -1,7 +1,7 @@
 # Project1_Group7
 
 1. Datasets:
-   - URL1: https://www.kaggle.com/datasets/zillow/zecon [Zillow Economics Data]
+   - URL1: https://www.redfin.com/news/data-center/ 
   
 2. Problem to Solve
       1. increase in house median sales price by TOP 5 markets
