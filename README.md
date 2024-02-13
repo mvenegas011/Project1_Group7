@@ -1,31 +1,62 @@
 # Project1_Group7
 
-1. Datasets:
-   - URL1: https://www.redfin.com/news/data-center/ 
-  
-2. Problem to Solve
-      1. increase in house median sales price by TOP 5 markets- done
-      2. house count per market - done
-      3. top, middle, bottom tier (by price) - tbd
-      4. Distribution - # of sales in time per Housing types (Condo/Co-Op/Single Fam/Multi-Fam - done
-      5. LIsting Price per Sq Foot (# of bedrooms) - tbd
-      6. seasonality/monthly of sales - tbd
-      7. increase in prices throughout time - done
-      8. PREDICTION of sales prices (components) - tbd
+# Project Team
+Anup Pathak, Dharmesh Gautam, Melisa Venegas, Sandeep Kothapalli
 
-      CORRELATIONS
-      - income 
-      - demographics 
-       
+# 1. About the Project
+Redfin is a real estate brokerage, having direct access to data from local multiple listing services, as well as insight from their real estate agents across the country. This data summarize the monthly housing market for every State, Metro, and Zip code in the US from 2012 to 2023. This project aims to analyze the housing data published by Redfin, understand the trends in data overtime, and present its readers steps the team took to showcase the insights from the trends. The project also aims to forecast the number of homes sold or lilkely price trends for the next 12 month period. The purpose of the project is to show the most relevant technical aspects of Python libraries and use of Prophet to address the analytical requirements of the project.
 
-3. To DO
-   - decide the market level (city, metro, state, country) - revisit
-   - define the columns that we will use- done
-   - clean up data -done
-   - decide if we want merge other data? or use other data sets - tbd
-   - code : build DFs, Forecast (prophet) - in progress
-4. Actions
-   - fix the y-axis units for total_homes_sold plot
-   - add labels to all the plots
+### Dataset
+The dataset for the project was sourced from this public URL: https://www.redfin.com/news/data-center/ 
+
+### Data Dictionary
+The definition of various terms / columns used in the dataset is published at this URL: https://www.redfin.com/news/data-center-metrics-definitions/
+
+### Tools for analysis
+1. Jupyter Notebook
+2. Google Collab [https://colab.google/]
+3. Github for code repostory 
+
+# 2. The Approach
+
+### Data Management
+The raw data was downloaded from the original source into an tabbed separated values for the initial analysis. The original data filesize was significantlly large, making it difficult to perform the analysis, given the limitations of the free tools used for analysis. After a quick review of the data, the initial file was reduced in size by selecting the most relevant features required for the analysis. The new layout was stored as a standard CSV file which served as an input for the rest of the analysis.
+
+### Analytical Approach
+1. Undersand the raw data by profiling the data and reviewing the published data dictionary
+2. Identify opportunities for analysis and prediction (See below)
+3. Prepare data for analysis by reading relevant data using Pandas
+4. Idenify trends in data by using Matplotlib libraries 
+5. Seek insights from the data
+6. Predict likely trend using Google's Colab and 'Prophet'
+7. Draw conclusions
+
+### Opportunities for analysis
+While the project team found the data rich for analysis, given the time and project constraints, the team focussed their efforts on th following areas of analysis. 
+1. National trends  across all metro areas in number of homes sold and home prices by property type across the period
+2. Top 5 Metro markets for the recent period, 2023
+3. Trends in Top 5 metro markets for homes sold and home prices by property types across period
+4. Seasonality in the homes sold across all metros and across the period over a 12 month cycle
+5. curve fitting and prediction for the next 12 month period for single family homes across all metro areas
+
+And while we used either top 5 metro areas  or all metro areas for analysis to showcase some of the analytical capabilities in this project, We feel we can extend this approach to analyzing and precition for any region or group of metros, depending on the business need.
+
+### Missed opportunities
+Given the time constraints, we could not use the data for expanding our analysis for correlation studies. We also felt that, given the impact of COVID pandemic, we could not assess the impact of Covid on the housing market. We leave this for a separate endeavor.
+
+we also envisioned that, in order to expand our study of coorelation between important variables, we may need additional data sources, such as demographic, income, or census data, to supplement the real estate market data.
+
+# 3. The Solution
+The solution has been uploaded to the Github into the project repo. It can be found here: https://github.com/mvenegas011/Project1_Group7.
+
+It primarily consists of three parts:
+1. Ingesting the initial raw data <Project1-group7.ipynb>
+2. Trend analysis on relevant data <Metro_Homes.ipynb>
+3. Prediction using the Trend Data <Metro_Homes_Forecast.ipynb>
    
-   
+# 4. Conclusions
+Write your conclusions here.
+
+Text1
+
+Text2
