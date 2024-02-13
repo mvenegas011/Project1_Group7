@@ -4,7 +4,9 @@
 Anup Pathak, Dharmesh Gautam, Melisa Venegas, Sandeep Kothapalli
 
 # 1. About the Project
-Redfin is a real estate brokerage, having direct access to data from local multiple listing services, as well as insight from their real estate agents across the country. This data summarize the monthly housing market for every State, Metro, and Zip code in the US from 2012 to 2023. This project aims to analyze the housing data published by Redfin, understand the trends in data overtime, and present its readers steps the team took to showcase the insights from the trends. The project also aims to forecast the number of homes sold or lilkely price trends for the next 12 month period. The purpose of the project is to show the most relevant technical aspects of Python libraries and use of Prophet to address the analytical requirements of the project.
+Redfin is a real estate brokerage, having direct access to data from local multiple listing services, as well as insight from their real estate agents across the country. This data summarize the monthly housing market for every State, Metro, and Zip code in the US from 2012 to 2023. The project aims to analyze the housing data, understand the trends in data, and present its readers steps the team took to draw insights from the trends. The project also includes forecast for the next 12 month period based on the trend data. 
+
+The purpose of this learning project is to show the most relevant technical aspects of Python libraries and use of Prophet to address the analytical requirements of the project.
 
 ### Dataset
 The dataset for the project was sourced from this public URL: https://www.redfin.com/news/data-center/ 
@@ -42,7 +44,7 @@ While the project team found the data rich for analysis, given the time and proj
 And while we used either top 5 metro areas  or all metro areas for analysis to showcase some of the analytical capabilities in this project, We feel we can extend this approach to analyzing and precition for any region or group of metros, depending on the business need.
 
 ### Missed opportunities
-Given the time constraints, we could not use the data for expanding our analysis for correlation studies. We also felt that, given the impact of COVID pandemic, we could not assess the impact of Covid on the housing market. We leave this for a separate endeavor.
+Given the time constraints, we could not use the data for expanding our analysis for correlation studies. We also wanted to study the impact of Covid on the housing market, but could not do so at this time. We leave these analyses for a separate endeavor.
 
 we also envisioned that, in order to expand our study of coorelation between important variables, we may need additional data sources, such as demographic, income, or census data, to supplement the real estate market data.
 
