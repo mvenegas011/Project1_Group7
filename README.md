@@ -4,7 +4,7 @@
 Anup Pathak, Dharmesh Gautam, Melisa Venegas, Sandeep Kothapalli
 
 # 1. About the Project
-Redfin is a real estate brokerage, having direct access to data from local multiple listing services, as well as insight from their real estate agents across the country. This data summarize the monthly housing market for every State, Metro, and Zip code in the US from 2012 to 2023. The project aims to analyze the housing data, understand the trends in data, and present its readers steps the team took to draw insights from the trends. The project also includes forecast for the next 12 month period based on the trend data. 
+Redfin is a real estate brokerage, having direct access to data from local multiple listing services, as well as insight from their real estate agents across the country. This data summarize the monthly housing market for every State, Metro, and Zip code in the US from 2012 to 2023. The project aims to analyze the housing data, understand the trends in data, and present its readers steps the team took to draw insights from the data. The project also includes forecast for the next 12 month period based on the trend data. 
 
 The purpose of this learning project is to show the most relevant technical aspects of Python libraries and use of Prophet to address the analytical requirements of the project.
 
