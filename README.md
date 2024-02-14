@@ -56,8 +56,28 @@ It primarily consists of three parts:
 3. Prediction using the Trend Data <Metro_Homes_Forecast.ipynb>
    
 # 4. Conclusions
-Write your conclusions here.
-
-Text1
-
-Text2
+- Single Family Home has the highest share of all residential properties sold in US metro areas. Condo/Co-Op, Townhouse and Multi-family homes are the next highest selling types respectively.
+- Housing sales peaked in 2021 and is in gradual downward trend since.
+- Average median sales price is in continuous upward trajectory for all property types since the begining of our data in 2012. Townhouse has the highest average median sales price, followed by Multi-family, Single Family and Condo/Co-Op.
+- The rate of price change increased rapidly from 2020 to 2022 with some tapering in 2023
+- The number of units sold is highest in June, with May, July and August also remaining high.
+- Top 5 metro areas based on 2023 analysis of all residential homes sold are:
+     1. Houston, TX
+     2. Atlanta, GA
+     3. Chicago, IL
+     4. Phoenix, AZ
+     5. Dallas, TX
+- The units sold in 5 highest metro areas followed the national trend with sales (units) peaking in 2021 and trending down since.
+- Among the top 5 metro areas based on units sold, the following have the highest average median sales price:
+     1. Phoenix, AZ
+     2. Dallas, TX
+     3. Atlanta, GA
+     4. Chicago, IL
+     5. Houston, TX
+- Similar to national trend, the rate of price change increased rapidly from 2020 to 2022 for the top 5 metro areas, with some tapering in 2023
+- The forecast for Single Family Homes sold for next 12 months is predicted to go down from 2023 level.
+- The home sale pattern will follow the same seasonality observed in last periods.
+- Single family homes sales is predicted to peak in May of 2024 with probability of 258,269 units sold. The range could be from low of 232,164 to the high of 284,240.
+- The forecast for Single Family Homes average median sale price for next 12 months is predicted to go down from 2023 level.
+- The average median sales price fluctuation pattern will follow the same seasonality observed in last periods.
+- Average median sales price of Single family homes is predicted to peak in June with probability of $333,095. The range could be from low of $327,884 to the high of $338,549.
